@@ -5,7 +5,7 @@ This repository is made for sharing code snippets for scraping Cars Data on www.
 below image shows the content inside "application/ld+json" script.
 ![divar_1](https://user-images.githubusercontent.com/42579060/194767491-2f08940c-3dad-4cee-9045-1cf39556e968.jpg)
 
-So to use the available information in the "application/ld+json" script instead of scraping every URL of every ad one by one, in the first stage, all the available Car models are classified into two main classes, 1- less Popular and 2- Popular Cars. Popular cars are those that, even in megacities like Tehran, there are less than 23 advertised cars. And vice versa, popular Cars have more than 23 advertisements in some cities.
+So to use the available information in the "application/ld+json" script instead of scraping every URL of every ad one by one, in the first stage, all the available Car models are classified into two main classes, 1- less Popular and 2- Popular Cars. Less Popular cars are those that, even in megacities like Tehran, there are less than 23 ads of those cars. And vice versa, popular Cars have more than 23 advertisements in some cities.
 
 less popular and popular cars list are available in information.xlsx file.
 
