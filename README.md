@@ -1,4 +1,4 @@
-This repository is made for sharing code snippets for scraping vehicles on www.divar.ir (Divar). Divar currently (in 2022) has the most updated car Ads in Iran. So to study the car market and find the best model for real-time prediction of car prices, it's necessary to scrape the car databases on Divar. For better search engine accessibility, Divar provides limited valuable information in the "application/ld+json" script in each HTML webpage. Divar only shows 23 results in this section.
+This repository is made for sharing code snippets for scraping Cars Data on www.divar.ir (Divar). Divar currently (in 2022) has the most updated car Ads in Iran. So to study the car market and find the best model for real-time prediction of car prices, it's necessary to scrape the car databases on Divar. For better search engine accessibility, Divar provides limited valuable information in the "application/ld+json" script in each HTML webpage. Divar only shows 23 results in this section.
 
 ![image](https://user-images.githubusercontent.com/42579060/194767169-2c64c08b-d6f7-4c95-8c37-a2e4c6d233dd.png)
 
@@ -10,3 +10,5 @@ So to use the available information in the "application/ld+json" script instead 
 less popular and popular cars list are available in information.xlsx file.
 
 ![information](https://user-images.githubusercontent.com/42579060/194779358-0af8cbe7-c829-4d2d-90ef-ce112196d141.jpg)
+
+Popcode.py is a code snippet for scraping all the available ads of a specific car model in a particular city and providing data in the desired style. lessPop.py code provides all the information about less popular cars within a specific city. Tabriz city is used in these two code samples.
