@@ -100,13 +100,13 @@ for j in range(24,prideDatabase.shape[0]):
                 time.sleep(3)
                 
             except ProtocolError:
-                print(str(j) + " -- " + address +" -- that f**ing invalid Chunk length error happend again!")
+                print(str(j) + " -- " + address +" -- invalid Chunk length error happend !")
                 
             except InvalidChunkLength:
-                print(str(j) + " -- " + address +" -- that f**ing invalid Chunk length error happend again!")
+                print(str(j) + " -- " + address +" -- invalid Chunk length error happend !")
                 
             except ChunkedEncodingError:
-                print(str(j) + " -- " + address +" -- that f**ing invalid Chunk length error happend again!")
+                print(str(j) + " -- " + address +" -- invalid Chunk length error happend !")
               
                 
             if counter%5 == 1:
